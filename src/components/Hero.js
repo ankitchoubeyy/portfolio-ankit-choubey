@@ -30,7 +30,7 @@ const Hero = () => {
                     href="https://www.devshiping.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-400 hover:text-blue-500 font-semibold underline underline-offset-2"
+                    className="text-primary hover:text-blue-500 font-semibold underline underline-offset-2"
                 >
                     here
                 </a>.

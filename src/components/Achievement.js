@@ -5,28 +5,17 @@ import { FaAward } from "react-icons/fa6";
 const achievements = [
   {
     id: 1,
-    title: "Perfomer of the Month, June 2025",
+    title: "Performer of the Month, June 2025",
     description:
-      "Led a 6-member team to develop an AI-powered resume shortlisting system integrated with OpenAI and Firebase, selected among top national entries.",
+      "Honored at OGA Business Solutions for exceptional performance and dedication in delivering high-quality, impactful development work.",
   },
   {
     id: 2,
-    title: "Top Contributor - Open Source 2024",
+    title: "MERN Certified Developer - Udemy 2024",
     description:
-      "Contributed to multiple open-source projects focused on web accessibility and developer tooling, including PRs merged into major GitHub repositories.",
+      "Developed strong expertise as a MERN (MongoDB, Express.js, React.js, Node.js) Stack Developer while gaining hands-on experience with Git, Linux, and a variety of modern web technologies.",
   },
-  {
-    id: 3,
-    title: "AWS Cloud Practitioner Certified",
-    description:
-      "Earned AWS certification demonstrating strong foundational knowledge in cloud infrastructure, deployment, and security practices.",
-  },
-  {
-    id: 4,
-    title: "Technical Speaker at DevConnect 2024",
-    description:
-      "Delivered a session on 'Building Scalable Full Stack Apps with Next.js and Firebase' attended by over 100 developers.",
-  },
+
 ];
 
 const Achievements = () => {

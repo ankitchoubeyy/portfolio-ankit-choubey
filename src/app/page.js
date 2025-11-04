@@ -11,7 +11,7 @@ import Contact from '@/components/Contact'
 
 const page = () => {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-5 min-h-screen">
+    <main className="max-w-4xl mx-auto px-4 py-10 min-h-screen">
       <Header />
 
       {/* Hero section */}

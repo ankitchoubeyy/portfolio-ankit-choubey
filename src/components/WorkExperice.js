@@ -8,9 +8,9 @@ const experiences = [
     company: "Oga Business Solutions",
     duration: "March 2025 – September 2025",
     achievements: [
-      "Developed a full-stack Task Manager system with robust back-end APIs and role-based access controls to streamline task assignment, tracking, and completion for internal teams.",
-      "Engineered real-time dashboards for sales tracking and payment monitoring using optimized MongoDB queries.",
-      "Awarded Best Performer of the Month (June 2025) for outstanding project delivery.",
+      "Developed a full-stack <em class='text-primary'>Task Manager</em> system with robust back-end APIs and role-based access controls to streamline task assignment, tracking, and completion for internal teams.",
+      "Engineered <em class='text-primary'>real-time dashboards</em> for sales tracking and <em class='text-primary'>Outstanding Dashboard</em> for payment monitoring using optimized SQL queries.",
+      "Awarded <span class='text-primary font-semibold'>Best Performer of the Month (June 2025)</span> for outstanding project delivery.",
     ],
     tech: "React.js, Node.js, PHP, JavaScript, Firebase SDK, OpenAI SDK, Wordpress, JQuery",
   },
@@ -20,7 +20,7 @@ const experiences = [
     company: "MangosOrange Pvt Ltd",
     duration: "July 2024 – May 2025",
     achievements: [
-      "Led the development of multiple web applications using React.js, Node.js, and MongoDB.",
+      "Led the development of multiple web applications using <strong>React.js</strong>, <strong>Node.js</strong>, and <strong>MongoDB</strong>.",
       "Engineered and sustained web apps leveraging both front-end and back-end frameworks.",
       "Demonstrated strong teamwork and communication in a collaborative environment.",
     ],
@@ -42,7 +42,7 @@ const WorkExperience = () => {
             key={exp.id}
             className="bg-white/10 border border-white/10 rounded-2xl p-5 hover:border-primary transition-colors duration-300"
           >
-            {/* Comany, Role and Duration */}
+            {/* Company, Role, and Duration */}
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
               <h3 className="text-lg md:text-xl font-semibold text-white">
                 {exp.role},{" "}
@@ -54,16 +54,21 @@ const WorkExperience = () => {
               </p>
             </div>
 
-            {/* Achievements */}
+            {/* Description */}
             <ul className="list-disc list-inside text-white/80 mt-3 space-y-1 text-sm md:text-base">
               {exp.achievements.map((item, i) => (
-                <li key={i}>{item}</li>
+                <li
+                  key={i}
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
               ))}
             </ul>
 
             {/* Tech Stack */}
             <p className="text-xs md:text-sm text-white/60 mt-3">
-              <span className="font-medium text-white/80"><span className="text-primary">Tech Stack:</span></span>{" "}
+              <span className="font-medium text-white/80">
+                <span className="text-primary">Tech Stack:</span>
+              </span>{" "}
               {exp.tech}
             </p>
           </div>
