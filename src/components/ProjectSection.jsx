@@ -36,12 +36,12 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Love Calculator ",
-    description: `HTML | CSS | JavaScript`,
-    image: `https://images.unsplash.com/photo-1515890435782-59a5bb6ec191?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxvdmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500`,
+    title: "Devshiping.com - Blog Website",
+    description: `Next.js | Wordpress | Tailwind CSS`,
+    image: `https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXJ0aWNsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500`,
     tags: [`All`, `Frontend`],
-    gitUrl: "https://github.com/ankitchoubeyy/LoveCalculator",
-    previewUrl: "https://ankitchoubeyy.github.io/LoveCalculator/",
+    gitUrl: "https://github.com/ankitchoubeyy/devshiping-blog",
+    previewUrl: "https://www.devshiping.com/",
   },
 ];
 

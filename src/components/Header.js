@@ -6,7 +6,7 @@ const Header = () => {
         <div className='flex items-center justify-start gap-2 sm:gap-3 mb-10'>
             <div className="relative w-20 h-20">
                 <Image
-                    src="/profile.png"
+                    src="/profile1.png"
                     alt="logo"
                     fill
                     className="object-cover rounded-full"

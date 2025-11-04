@@ -6,7 +6,7 @@ const skillsData = [
   {
     category: "Languages",
     icon: <FaCode className="text-primary w-5 h-5" />,
-    items: ["C++", "Python", "JavaScript", "TypeScript"],
+    items: ["C++", "Python", "JavaScript", "TypeScript", "Php"],
   },
   {
     category: "Frameworks & Libraries",
@@ -23,7 +23,7 @@ const skillsData = [
   {
     category: "Databases",
     icon: <FaDatabase className="text-primary w-5 h-5" />,
-    items: ["MongoDB", "MySQL", "PostgreSQL", "Firebase", "Supabase"],
+    items: ["MongoDB", "MySQL"],
   },
   {
     category: "Other",
@@ -31,12 +31,10 @@ const skillsData = [
     items: [
       "RESTful APIs",
       "Docker",
-      "Nginx",
-      "AWS Lightsail",
       "Node.js",
       "Linux",
       "GitHub",
-      "Version Control (Git)",
+      "Git",
     ],
   },
 ];

@@ -4,28 +4,28 @@ import { FaSuitcaseRolling } from "react-icons/fa";
 const experiences = [
   {
     id: 1,
-    role: "Founding Engineer",
-    company: "CrackAdmission Pvt Ltd",
-    duration: "May 2025 – Present",
+    role: "SDE - Intern",
+    company: "Oga Business Solutions",
+    duration: "March 2025 – September 2025",
     achievements: [
       "Built a next-gen recruitment platform with resume parsing, Gmail-based intake, and AI interview evaluation using OpenAI SDK, automated via Google Cloud and Firebase Functions.",
       "Developed a scalable LMS with live sessions, structured assessments, and AI-driven personalization.",
       "Architected Firebase-based infrastructure with Firestore, Authentication, and Storage, deployed on Vercel, and integrated Razorpay workflows via n8n automation.",
     ],
-    tech: "Next.js, TypeScript, Firebase SDK, OpenAI SDK, Google Cloud Functions, Vercel",
+    tech: "Next.js, PHP, TypeScript, Firebase SDK, OpenAI SDK, Wordpress, Vercel",
   },
   {
     id: 2,
-    role: "Web Development Engineering Intern",
-    company: "CrackAdmission Pvt Ltd",
-    duration: "Oct 2024 – May 2025",
+    role: "Full Stack - Intern",
+    company: "MangosOrange Pvt Ltd",
+    duration: "July 2024 – May 2025",
     achievements: [
       "Migrated a legacy WordPress site to Next.js, improving SEO and reducing load times by 40%.",
       "Built a custom Strapi CMS to streamline content workflows, reducing publishing time by 30%.",
       "Containerized deployments with Docker and optimized Nginx servers, boosting performance by 25%.",
       "Deployed full-stack app on AWS Lightsail with secure networking and automated backups, achieving 99.9% uptime while lowering costs by 20%.",
     ],
-    tech: "Next.js, TypeScript, Nginx, Docker, AWS Lightsail, Strapi CMS",
+    tech: "Next.js, TypeScript, Strapi CMS",
   },
 ];
 

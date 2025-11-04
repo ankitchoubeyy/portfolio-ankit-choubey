@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Ankit Choubey - Portfolio",
   description: "Full Stack Developer specializing in React, Node.js, and Django. I build fast, reliable, and user-friendly web solutions.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
