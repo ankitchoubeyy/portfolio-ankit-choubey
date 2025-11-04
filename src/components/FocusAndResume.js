@@ -8,14 +8,14 @@ export default function FocusAndResume() {
         Currently, I&apos;m exploring{" "}
         <span className="relative inline-block mx-1">
           <span className="absolute inset-0 bg-gray-800/50 backdrop-blur-md rounded px-1"></span>
-          <span className="relative z-10 text-green-400 font-bold italic px-1">
+          <span className="relative z-10 text-primary font-bold italic px-1">
             Next.js
           </span>
         </span>
         ,
         <span className="relative inline-block mx-1">
           <span className="absolute inset-0 bg-gray-800/50 backdrop-blur-md rounded px-1"></span>
-          <span className="relative z-10 text-green-400 font-bold italic px-1">
+          <span className="relative z-10 text-primary font-bold italic px-1">
             AI Agents
           </span>
         </span>
@@ -23,7 +23,7 @@ export default function FocusAndResume() {
         <span className="relative inline-block mx-1">
           <span className="absolute inset-0 bg-gray-800/50 backdrop-blur-md rounded px-1"></span>
           <span className="relative z-10 text-green-400 font-semibold italic px-1">
-            Web3
+            React Native
           </span>
         </span>{" "}
         along with other exciting technologies.
