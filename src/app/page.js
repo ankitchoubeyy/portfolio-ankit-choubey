@@ -5,6 +5,9 @@ import Hero from '@/components/Hero'
 import Skills from '@/components/Skills'
 import WorkExperice from '@/components/WorkExperice'
 import React from 'react'
+import ProjectsSection from '@/components/ProjectSection'
+import Footer from '@/components/Footer'
+import Contact from '@/components/Contact'
 
 const page = () => {
   return (
@@ -18,6 +21,7 @@ const page = () => {
       <WorkExperice />
 
       {/* Projects */}
+      <ProjectsSection />
 
       {/* Skills */}
       <Skills />
@@ -27,6 +31,12 @@ const page = () => {
 
       {/* Education */}
       <Education />
+
+      {/* Contact */}
+      <Contact />
+
+      {/* Footer */}
+      <Footer />
     </main>
 
   )

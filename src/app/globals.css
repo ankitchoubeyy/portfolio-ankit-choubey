@@ -28,3 +28,7 @@ body {
 .text-secondary {
   color: var(--secondary);
 }
+
+.bg-primary {
+  background-color: var(--primary);
+}
