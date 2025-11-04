@@ -8,12 +8,6 @@
   --secondary: #FFD500;
 }
 
-/* Global reset & base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 html {
   scroll-behavior: smooth;

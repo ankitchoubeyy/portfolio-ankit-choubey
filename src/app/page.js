@@ -1,10 +1,12 @@
 import Header from '@/components/Header'
+import Hero from '@/components/Hero'
 import React from 'react'
 
 const page = () => {
   return (
-    <main className="px-4 sm:px-8 py-6 min-h-screen bg-green-200 border border-green-400">
+    <main className="max-w-4xl mx-auto px-4 py-5 min-h-screen">
       <Header />
+      <Hero />
     </main>
 
   )
