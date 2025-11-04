@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaProjectDiagram } from "react-icons/fa";
+import { LuFolderOpen } from "react-icons/lu";
 
 const projectsData = [
   {
@@ -63,7 +63,7 @@ function ProjectsSection() {
         id="project"
       >
         <h2 className="text-primary font-extrabold text-2xl md:text-4xl flex items-center gap-2">
-          <FaProjectDiagram className="w-6 h-6" />Projects
+          <LuFolderOpen className="w-6 h-6" />Projects
         </h2>
         <div className="flex text-white flex-row justify-center items-center text-2xl gap-5 sm:gap-10 mt-5 md:mt-10">
           <ProjectTag
