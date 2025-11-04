@@ -25,7 +25,7 @@ const socialData = [
   {
     id: 4,
     icon: <SiGmail />,
-    path: "mailto:ankitchoubeyy@gmail.com",
+    path: "mailto:imkitchoubey@gmail.com",
     color: "hover:text-red-400",
   },
 ];
