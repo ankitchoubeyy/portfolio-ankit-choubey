@@ -4,9 +4,9 @@ import { FaSuitcaseRolling } from "react-icons/fa";
 const experiences = [
   {
     id: 1,
-    role: "SDE - Intern",
+    role: "SDE - 1",
     company: "Oga Business Solutions",
-    duration: "March 2025 – September 2025",
+    duration: "October 2024 – October 2025",
     achievements: [
       "Developed a full-stack <em class='text-primary'>Task Manager</em> system with robust back-end APIs and role-based access controls to streamline task assignment, tracking, and completion for internal teams.",
       "Engineered <em class='text-primary'>real-time dashboards</em> for sales tracking and <em class='text-primary'>Outstanding Dashboard</em> for payment monitoring using optimized SQL queries.",
@@ -18,7 +18,7 @@ const experiences = [
     id: 2,
     role: "Full Stack - Intern",
     company: "MangosOrange Pvt Ltd",
-    duration: "July 2024 – May 2025",
+    duration: "March 2024 – September 2024",
     achievements: [
       "Led the development of multiple web applications using <strong>React.js</strong>, <strong>Node.js</strong>, and <strong>MongoDB</strong>.",
       "Engineered and sustained web apps leveraging both front-end and back-end frameworks.",
