@@ -1,4 +1,4 @@
-'use client'
+import React from 'react'
 
 import Achievements from '@/components/Achievement'
 import Education from '@/components/Education'
@@ -6,7 +6,6 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Skills from '@/components/Skills'
 import WorkExperice from '@/components/WorkExperice'
-import React from 'react'
 import ProjectsSection from '@/components/ProjectSection'
 import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
