@@ -32,7 +32,7 @@ const skillsData = [
       "RESTful APIs",
       "Docker",
       "Node.js",
-      "Linux",
+      "Fedora Linux",
       "GitHub",
       "Git",
     ],

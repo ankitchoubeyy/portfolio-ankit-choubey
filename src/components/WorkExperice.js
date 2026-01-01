@@ -4,6 +4,18 @@ import { FaSuitcaseRolling } from "react-icons/fa";
 const experiences = [
   {
     id: 1,
+    role: "MERN Developer",
+    company: "AppSquadz",
+    duration: "November 2025 – Present",
+    achievements: [
+      "Currently contributing to the <em class='text-primary'>StaffDekho.com</em> platform at Appsquadz, working on scalable backend APIs and role-based modules for staff and employer management.",
+      "Improving system performance and data accuracy through optimized database queries and backend logic.",
+      "Collaborating with cross-functional teams to deliver production-ready features in an agile environment."
+    ],
+    tech: "React.js, Node.js, PHP, JavaScript, Firebase SDK, OpenAI SDK, JQuery",
+  },
+  {
+    id: 2,
     role: "SDE - 1",
     company: "Oga Business Solutions",
     duration: "October 2024 – October 2025",
@@ -15,7 +27,7 @@ const experiences = [
     tech: "React.js, Node.js, PHP, JavaScript, Firebase SDK, OpenAI SDK, Wordpress, JQuery",
   },
   {
-    id: 2,
+    id: 3,
     role: "Full Stack - Intern",
     company: "MangosOrange Pvt Ltd",
     duration: "March 2024 – September 2024",

@@ -18,12 +18,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "MH Fitness – Strength Club ",
+    title: "MH Fitness Center",
     description: `Next.js | Tailwind CSS | Vercel`,
-    image: `https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGd5bXxlbnwwfHwwfHx8MA%3D%3D`,
+    image: `https://mhfitnesscenter.in/assets/gym.jpg`,
     tags: [`All`, `Frontend`],
-    gitUrl: "https://github.com/ankitchoubeyy/mh-fitness",
-    previewUrl: "https://mhfitness.vercel.app/",
+    gitUrl: "https://github.com/ankitchoubeyy/mhfitnesscentre.in",
+    previewUrl: "https://mhfitnesscenter.vercel.app/",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Devshiping.com - Blog Website",
+    title: "Devshiping.com",
     description: `Next.js | Wordpress | Tailwind CSS`,
     image: `https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXJ0aWNsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500`,
     tags: [`All`, `Frontend`],
