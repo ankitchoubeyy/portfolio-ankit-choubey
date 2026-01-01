@@ -2,6 +2,7 @@
 import React from "react";
 import { BsGithub, BsLinkedin, BsTwitter,  } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
 
 const socialData = [
   {
@@ -18,7 +19,7 @@ const socialData = [
   },
   {
     id: 3,
-    icon: <BsTwitter />,
+    icon: <FaXTwitter />,
     path: "https://twitter.com/ankitchoubey_",
     color: "hover:text-sky-400",
   },

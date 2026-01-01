@@ -19,11 +19,11 @@ const Header = () => {
                 </h1>
 
                 <div className="flex gap-1 md:gap-2 mt-1">
-                    <p className="text-white/80 bg-white/10 backdrop-blur-md py-1 px-3 rounded-full text-xs inline-block border border-white/10">
+                    <p className="text-white/80 bg-white/10 backdrop-blur-md py-1 px-2 rounded-full text-xs inline-block border border-white/10">
                         Software Engineer
                     </p>
 
-                    <p className="text-white/80 bg-white/10 backdrop-blur-md py-1 px-3 rounded-full text-xs inline-block border border-white/10">
+                    <p className="text-white/80 bg-white/10 backdrop-blur-md py-1 px-2 rounded-full text-xs inline-block border border-white/10">
                         MERN Developer
                     </p>
                 </div>
