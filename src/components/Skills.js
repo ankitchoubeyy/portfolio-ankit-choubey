@@ -41,7 +41,7 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-10" id="skills">
       <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6 flex items-center gap-2">
         <FaLaptopCode className="w-6 h-6 text-primary" />Skills
       </h2>

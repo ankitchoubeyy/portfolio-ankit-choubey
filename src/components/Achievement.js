@@ -20,7 +20,7 @@ const achievements = [
 
 const Achievements = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-10" id="achievements">
       <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6 flex items-center gap-2">
         <FaAward className="w-6 h-6 text-primary" /> Achievements
       </h2>

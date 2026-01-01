@@ -43,7 +43,7 @@ const experiences = [
 const WorkExperience = () => {
   return (
     <section className="mt-10">
-      <h2 className="text-2xl md:text-3xl font-bold text-primary flex items-center gap-2 mb-6">
+      <h2 className="text-2xl md:text-3xl font-bold text-primary flex items-center gap-2 mb-6" id="work-experience">
         <FaSuitcaseRolling className="w-6 h-6 text-primary" />
         Work Experience
       </h2>

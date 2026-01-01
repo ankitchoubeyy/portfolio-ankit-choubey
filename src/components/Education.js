@@ -7,8 +7,8 @@ const educationData = [
     duration: "September 2021 - August 2025",
     institution: "Mangalmay Institute of Engineering and Technology",
     degree: "B.Tech",
-    stream: "Artificial Intelligence",
-    cgpa: "7.5",
+    stream: "CSE (AI)",
+    cgpa: "7.7",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const educationData = [
 
 const Education = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-10" id="education">
       <h2 className="text-2xl md:text-3xl font-bold text-primary mb-8 flex items-center gap-2">
         <IoMdSchool className="w-6 h-6" /> Education
       </h2>

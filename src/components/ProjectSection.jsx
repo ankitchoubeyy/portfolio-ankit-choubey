@@ -58,7 +58,7 @@ function ProjectsSection() {
 
   return (
     <>
-      <div
+      <section
         className=" text-white my-10"
         id="project"
       >
@@ -103,7 +103,7 @@ function ProjectsSection() {
             </motion.div>
           ))}
         </div>
-      </div>
+      </section>
     </>
   );
 }

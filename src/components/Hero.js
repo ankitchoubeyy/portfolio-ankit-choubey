@@ -5,7 +5,7 @@ import SocialIcons from "./SocialIcons";
 
 const Hero = () => {
     return (
-        <div className='my-4'>
+        <section className='my-4'>
             {/* Type Animation */}
             <h2 className='text-xl sm:text-2xl md:text-3xl font-bold my-4 md:my-6'>I make <span className='text-primary italic'><TypeAnimation
                 sequence={[
@@ -44,7 +44,7 @@ const Hero = () => {
 
             {/* Social Icons */}
             <SocialIcons />
-        </div>
+        </section>
     )
 }
 
