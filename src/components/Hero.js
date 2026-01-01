@@ -13,7 +13,7 @@ const Hero = () => {
                     1000,
                     "Fast, reliable websites.",
                     1000,
-                    "Coffee.",
+                    "Scalable backend systems.",
                     1000
                 ]}
                 wrapper="span"
@@ -23,8 +23,11 @@ const Hero = () => {
 
             {/* Introduction */}
             <p className="text-sm md:text-base my-2 text-justify text-white/80">
-                Hi, I&apos;m <span className="text-white font-semibold">Ankit Choubey</span>, a self-taught Full Stack Developer based in Noida, India. I specialize in
-                <span className="text-primary font-medium"> React, Node.js, and Django</span>, building fast, reliable, and user-friendly web applications.
+                Hi, I&apos;m <span className="font-semibold">Ankit Choubey</span>, a self-taught Full Stack Developer based in Noida, India,
+                Currently working as a Software Engineer. I specialize in
+                <span className="text-primary font-medium"> Next.js, Express.js, MongoDB and Node.js</span>,
+                building scalable, high-performance, and user-centric web applications used in real-world production environments.
+
                 I also share my knowledge and write technical articles&nbsp;
                 <a
                     href="https://www.devshiping.com/"

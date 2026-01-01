@@ -13,13 +13,13 @@ const socialData = [
   {
     id: 2,
     icon: <BsLinkedin />,
-    path: "https://www.linkedin.com/in/ankitchoubey/",
+    path: "https://www.linkedin.com/in/ankitchoubeyy/",
     color: "hover:text-blue-500",
   },
   {
     id: 3,
     icon: <BsTwitter />,
-    path: "https://twitter.com/codewithchoubey",
+    path: "https://twitter.com/ankitchoubey_",
     color: "hover:text-sky-400",
   },
   {
