@@ -1,3 +1,5 @@
+'use client'
+
 import Achievements from '@/components/Achievement'
 import Education from '@/components/Education'
 import Header from '@/components/Header'
@@ -14,28 +16,20 @@ const page = () => {
     <main className="max-w-4xl mx-auto px-4 py-10 min-h-screen">
       <Header />
 
-      {/* Hero section */}
       <Hero />
 
-      {/* Work section */}
       <WorkExperice />
 
-      {/* Projects */}
       <ProjectsSection />
 
-      {/* Skills */}
       <Skills />
 
-      {/* Achievements */}
       <Achievements />
 
-      {/* Education */}
       <Education />
 
-      {/* Contact */}
       <Contact />
 
-      {/* Footer */}
       <Footer />
     </main>
 
