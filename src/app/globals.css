@@ -20,6 +20,14 @@ body {
   overflow-x: hidden;
 }
 
+/* Hide Up/Down arrow for number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 /* Custom classes */
 .text-primary {
   color: var(--primary);
